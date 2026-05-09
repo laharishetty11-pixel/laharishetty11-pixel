@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lahari Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+    <nav>
+      <div class="logo">Lahari.</div>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="toggle-btn" onclick="toggleMode()">
+        Dark/Light
+      </button>
+    </nav>
+  </header>
+
+  <!-- Home -->
+
+  <section class="home" id="home">
+
+    <img src="images/profile.jpg" alt="Profile">
+
+    <h1>Hi, I'm Lahari</h1>
+
+    <div class="typing"></div>
+
+    <p>
+      Passionate MCA student interested in Web Development and Cyber Security.
+      I enjoy building responsive and interactive websites.
+    </p>
+
+    <a href="resume.pdf"btn">Download Resume</a>
+
+  </section>
+
+  <!-- About -->
+
+  <section id="about">
+
+    <h2 class="title">About Me</h2>
+
+    <div class="about-content">
+
+      <div class="about-box">
+        <h3>Education</h3>
+        <p>
+          Pursuing MCA with strong interest in Full Stack Development
+          and Cyber Security.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>Experience</h3>
+        <p>
+          Completed internship projects like Responsive Landing Page,
+          Stopwatch App and Tic-Tac-Toe Game.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>Career Goal</h3>
+        <p>
+          Looking forward to improving practical skills through
+          real-world projects.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <h2 class="title">Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML</h3>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS</h3>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-python"></i>
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill">
+        <i class="fa-solid fa-network-wired"></i>
+        <h3>Networking</h3>
+      </div>
+
+      <div class="skill">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Cyber Security</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects">
+
+    <h2 class="title">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Responsive Landing Page</h3>
+        <p>
+          Interactive navigation menu with responsive design.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Stopwatch Web App</h3>
+        <p>
+          Stopwatch with start, pause and reset functionality.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>
+          Interactive JavaScript-based game.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section class="contact" id="contact">
+
+    <h2 class="title">Contact Me</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name" required>
+
+      <input type="email" placeholder="Your Email" required>
+
+      <textarea rows="6" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <p>© 2026 Lahari | Portfolio Website</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
