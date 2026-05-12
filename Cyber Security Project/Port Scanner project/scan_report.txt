@@ -1,0 +1,5 @@
+Port 22 is OPEN --> ssh
+Port 53 is OPEN --> domain
+Port 80 is OPEN --> http
+
+Scan completed in 53.66 seconds
